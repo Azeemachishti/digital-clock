@@ -1,0 +1,27 @@
+body{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+
+  span{
+    font-weight: bold;
+  }
+  
+  .hour,
+  .minute,
+  .second {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 50px;
+    font-weight: bold;
+    background: aquamarine;
+  }
+  
